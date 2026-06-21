@@ -1,13 +1,17 @@
 # Build artifacts
 node_modules/
-dist/
-.next/
-.vercel/
+packages/*/dist/
+sdks/typescript/*/dist/
+
+# Test artifacts
 coverage/
 *.tsbuildinfo
+.nyc_output/
 
-# Bun
-bun.lockb
+# Framework
+.next/
+.turbo/
+.vercel
 
 # OS
 .DS_Store
@@ -17,3 +21,42 @@ Thumbs.db
 .idea/
 .vscode/
 *.swp
+
+# Env
+.env
+.env.local
+.env*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# Java
+target/
+*.class
+*.jar
+.gradle/
+build/
+
+# Ruby
+*.gem
+.bundle/
+vendor/bundle/
+
+# PHP
+vendor/
+composer.phar
+
+# Rust
+# Cargo target is git-ignored inside each package
+
+# .NET
+bin/
+obj/
+*.user
