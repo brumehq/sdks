@@ -1,0 +1,16 @@
+{
+    "name": "@brume/sdks",
+    "private": true,
+    "description": "Polyglot monorepo of all Brume Realtime Gateway SDKs. TypeScript packages are linked via bun workspaces; other languages are independent.",
+    "engines": {
+        "node": ">=20"
+    },
+    "workspaces": [
+        "sdks/typescript/*"
+    ],
+    "scripts": {
+        "build": "bun run --filter='@brume/*' build",
+        "test": "bun run --filter='@brume/*' test",
+        "typecheck": "bun run --filter='@brume/*' typecheck"
+    }
+}

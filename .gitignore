@@ -1,0 +1,19 @@
+# Build artifacts
+node_modules/
+dist/
+.next/
+.vercel/
+coverage/
+*.tsbuildinfo
+
+# Bun
+bun.lockb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+.vscode/
+*.swp
