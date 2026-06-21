@@ -1,0 +1,17 @@
+{
+  "cliVersion": "5.50.3",
+  "generatorName": "fernapi/fern-csharp-sdk",
+  "generatorVersion": "2.68.4",
+  "generatorConfig": {
+    "client-class-name": "BrumeRestClient",
+    "namespace": "Brume.Rest",
+    "package-id": "Brume.Rest",
+    "root-client-class-access": "public",
+    "generate-error-types": true,
+    "enable-forward-compatible-enums": true
+  },
+  "originGitCommit": "61dfb771394b4fd9e59f4b7e7c7b25a8a26c3bdb",
+  "originGitCommitIsDirty": false,
+  "invokedBy": "ci",
+  "ciProvider": "github"
+}

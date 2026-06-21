@@ -1,0 +1,20 @@
+{
+  "cliVersion": "5.50.3",
+  "generatorName": "fernapi/fern-python-sdk",
+  "generatorVersion": "5.14.20",
+  "generatorConfig": {
+    "package_name": "brume",
+    "client_class_name": "BrumeClient",
+    "environment_class_name": "BrumeEnvironment",
+    "pyproject_python_version": "^3.10",
+    "improved_imports": true,
+    "pydantic_config": {
+      "extra_fields": "ignore",
+      "use_str_enums": true
+    }
+  },
+  "originGitCommit": "61dfb771394b4fd9e59f4b7e7c7b25a8a26c3bdb",
+  "originGitCommitIsDirty": false,
+  "invokedBy": "ci",
+  "ciProvider": "github"
+}

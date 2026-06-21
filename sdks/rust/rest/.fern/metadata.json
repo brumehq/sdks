@@ -1,0 +1,27 @@
+{
+  "cliVersion": "5.50.3",
+  "generatorName": "fernapi/fern-rust-sdk",
+  "generatorVersion": "0.40.6",
+  "generatorConfig": {
+    "clientClassName": "BrumeClient",
+    "crateName": "brume-rest",
+    "crateVersion": "0.1.0",
+    "environmentEnumName": "BrumeEnvironment",
+    "packageDescription": "Official Brume Realtime Gateway REST client for Rust. Brume is a realtime gateway for Postgres-backed apps — fan-out publish, presence, projects, API keys, webhooks, and operational stats.",
+    "packageLicense": "MIT",
+    "packageRepository": "https://github.com/brumehq/brume-rest-rust",
+    "packageDocumentation": "https://docs.brume.run",
+    "extraDependencies": {
+      "tokio": {
+        "version": "1",
+        "features": [
+          "full"
+        ]
+      }
+    }
+  },
+  "originGitCommit": "61dfb771394b4fd9e59f4b7e7c7b25a8a26c3bdb",
+  "originGitCommitIsDirty": false,
+  "invokedBy": "ci",
+  "ciProvider": "github"
+}

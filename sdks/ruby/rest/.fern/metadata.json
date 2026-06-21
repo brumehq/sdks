@@ -1,0 +1,13 @@
+{
+  "cliVersion": "5.50.3",
+  "generatorName": "fernapi/fern-ruby-sdk",
+  "generatorVersion": "1.13.1",
+  "generatorConfig": {
+    "moduleName": "Brume",
+    "clientModuleName": "BrumeClient"
+  },
+  "originGitCommit": "61dfb771394b4fd9e59f4b7e7c7b25a8a26c3bdb",
+  "originGitCommitIsDirty": false,
+  "invokedBy": "ci",
+  "ciProvider": "github"
+}

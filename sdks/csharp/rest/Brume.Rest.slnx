@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="src/Brume.Rest.Test/Brume.Rest.Test.csproj" />
+  <Project Path="src/Brume.Rest/Brume.Rest.csproj" />
+</Solution>
